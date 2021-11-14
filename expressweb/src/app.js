@@ -23,7 +23,7 @@ app.get("",(req,res)=>{
     res.render('index');
 });
 
-app.get("/sem",(req,res)=>{
+app.get("/CollegeSpace/sem",(req,res)=>{
     res.render('sem');
 });
 app.get("/cycle",(req,res)=>{
