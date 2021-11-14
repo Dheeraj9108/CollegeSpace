@@ -19,7 +19,7 @@ app.use(express.static(static_path));
 
 
 //5th Sem
-app.get("",(req,res)=>{
+app.get("/CollegeSpace",(req,res)=>{
     res.render('index');
 });
 
